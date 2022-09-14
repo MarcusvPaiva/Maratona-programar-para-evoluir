@@ -1,0 +1,54 @@
+body{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vH;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 60px;
+}
+header div{
+    background-image: url(../img/Pipe.png);
+    background-repeat: no-repeat;
+    width: 685px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    line-height: 55px;
+}
+header div p{
+    margin:0 80px; 
+}
+header button{
+    background: orange;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-right: 80px;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    width:80%;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
+main img{
+    width: 200px;
+    height: 200px;
+}
